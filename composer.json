@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim": "3.*",
+        "respect/validation": "^2.0",
+        "illuminate/database": "^7.12",
+        "slim/psr7": "^1.1",
+        "tuupola/slim-jwt-auth": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
